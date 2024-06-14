@@ -1,23 +1,15 @@
-package com.example.codepractice
-
-import java.lang.StringBuilder
-
 fun main() {
-    var sb = StringBuilder()
-    var num1 = readLine()!!.toInt()
-    var num2 = readLine()!!.toInt()
-    var num3 = readLine()!!.toInt()
-    var num4 = readLine()!!.toInt()
-    var num5 = readLine()!!.toInt()
+    println("영어 단어를 입력해주세요")
+    var word = readLine()!!
+    var char: CharArray = word.toCharArray()
+    var count = 0
 
-    sb.append(num1)
-    sb.append(num2)
-    sb.append(num3)
-    sb.append(num4)
-    sb.append(num5)
+    for(i in 0..(word.length-1)){
+        if('a' == char[i]){
+            count++
+        }
+    }
 
-    var char = sb.toString().toCharArray()
-    print(char.min())
+    println(count)
 
 }
-
