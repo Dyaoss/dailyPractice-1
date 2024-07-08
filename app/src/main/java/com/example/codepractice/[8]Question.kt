@@ -5,11 +5,11 @@ fun main(){
 
     println("숫자를 입력해주세요.")
     var num = readLine()!!.toInt()
-    var temp = 0
+    var sum = 0
 
     for(i in 0 .. num){
-        temp += i
+        sum += i
     }
 
-    println("1부터 ${num}까지 더한 수는 ${temp} 입니다.")
+    println("1부터 ${num}까지 더한 수는 ${sum} 입니다.")
 }
