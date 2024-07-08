@@ -22,8 +22,4 @@ fun main() {
     } else if (day > 30) {
         println("30이하의 수를 입력해주세요")
     }
-    return
-
-    //월 1 8 15 22 29
-    //화 2
 }
