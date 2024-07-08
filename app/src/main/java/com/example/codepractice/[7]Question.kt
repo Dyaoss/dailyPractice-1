@@ -1,6 +1,8 @@
 package com.example.codepractice
 
 fun main() {
+//    [7] 날짜를 입력하여 해당 요일이 무슨요일 인지를 판별하기 (달의 기준은 30일이며 1일은 월요일입니다.)
+    //    입력 2일, 출력:화요일입니다.
 
     println("날짜를 입력해주세요. (날짜는 30일까지 있습니다./ 종료하려면 0을 눌러주세요)")
     val day = readLine()!!.toInt()
